@@ -6,14 +6,14 @@ class About extends React.Component{
         let menu = <div className="menu">
                 <ul>
                     <li><NavLink to = "/contact" style = {{textDecoration: 'none'}} className = "inactive" activeClassName="active">contact</NavLink></li>
-                    <li><NavLink to = "/" style = {{textDecoration: 'none'}} className = "inactive" activeClassName="active">back</NavLink></li>
+                    <li><NavLink to = "/" style = {{textDecoration: 'none'}} className = "inactive" activeClassName="active">home</NavLink></li>
                 </ul>
             </div>
 
         return(
             <div>
                 {menu}
-                About
+                <p>inyourspace.xyz is an astrophotography project</p>
             </div>
         )
     }
