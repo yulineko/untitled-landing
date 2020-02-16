@@ -32,3 +32,33 @@ a{
   padding-left: 30px;
 }
 
+.menu{
+  position: absolute;
+  top: 0; 
+  right: 0;
+}
+
+ul{
+  padding-right: 10px;
+}
+
+ul li{
+  display: inline;
+  padding-right: 50px;
+  color: white;
+  font-family: "Prompt";
+  font-size: 15px;
+}
+
+ul li > a:not(.activeLink):hover {
+  color: yellow;
+}
+
+.active{
+  color: white
+}
+
+.inactive{
+  color: white
+}
+
