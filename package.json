@@ -1,6 +1,5 @@
 {
   "name": "landing",
-  "homepage": "http://inyourspace.xyz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
