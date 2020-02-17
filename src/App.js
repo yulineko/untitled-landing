@@ -20,7 +20,7 @@ class App extends React.Component {
           Photo: Nathan Anderson on <a href="https://unsplash.com/@nathananderson">Unsplash</a>.
         </div>
         <div className="copyright">
-          ©2020 In Your Space
+          ©2020 IYS All Rights Reserved
         </div>
       </div>
     );
