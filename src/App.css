@@ -27,13 +27,23 @@ a{
 }
 
 .credit{
-  font-size: 13px;
+  font-size: 12px;
   color: white;
   position: absolute;
   bottom: 0;
   left: 0;
   padding-bottom: 20px;
-  padding-left: 30px;
+  padding-left: 50px;
+}
+
+.copyright{
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 20px;
+  padding-right: 50px;
 }
 
 .menu{
